@@ -84,6 +84,45 @@ $str="This function string";
 function1($str);
 echo $str;
 
+echo "<br>";
+echo "function by variable";
+echo "<br>";
 
+
+// function wow($name){
+//     echo "hello $name";
+
+// }
+// $func="wow";
+// $func("Jamshed Baba");
+
+#anonymous function
+$sayhello=function($name){
+    echo "hello $name";
+};
+$sayhello("Jamshed Baba <br>");
+echo "________________________________________________________________<br>";
+
+
+echo "_________________Recursive Function__________________________<br>";
+
+
+function recursive($number){
+    if ($number<=5){
+        echo "$number <br>";
+        recursive($number+1);
+    }
+}
+recursive(1);
+echo "________________________________________________________________<br>";
+echo "_________________factorial______________________________________<br>";
+function factorial($n){
+    if ($n == 0){
+        return 1;
+    } else {
+        return ($n * factorial($n - 1));
+    }
+}
+echo factorial(5);
 ?>
 
