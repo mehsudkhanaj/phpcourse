@@ -139,7 +139,7 @@ $smart=[
 // print_r($newarray);
 // echo "</pre>";
 
-echo "____________Array Splice Function_______________<br>";
+// echo "____________Array Splice Function_______________<br>";
 // $food=array('asad','orange','banana',55,'apple','pineapple');
 // $newarray=array_slice($food,0,4);
 // $foodb=array(
@@ -153,23 +153,76 @@ echo "____________Array Splice Function_______________<br>";
 // echo "<pre>";
 // print_r($newarray);
 // echo "</pre>";
-echo "____________Array Splice Function_______________<br>";
+// echo "____________Array Splice Function_______________<br>";
 
 
 
-$food=array('orange','asad','banana',55,'apple','pineapple');
-$veggie=['red','yellow'];
-array_splice($food,1,2,$veggie);
-// array_splice($food,2);
+// $food=array('orange','asad','banana',55,'apple','pineapple');
+// $veggie=['red','yellow'];
+// array_splice($food,1,2,$veggie);
+// // array_splice($food,2);
+// echo "<pre>";
+// print_r($food);
+// echo "</pre>";
+// echo "____________Array key function_______________<br>";
+// $colors=['red','blue','white','purple'];
+// $newarray=array_keys($colors);
+// $newarray=key_exists('34',$foodb);
+// if($newarray){
+//     echo "key exist";
+// }else{
+//     echo "not exists";
+// }
+// echo "<pre>";
+// print_r($newarray);
+// echo "</pre>";.
+// echo "____________Array Intersect function_______________<br>";
+// $colors=['red','blue','white','purple','jimi','red','purple','white','violtet','hello'];
+// $secondcolor=['red','purple','white','violtet'];
+// $newcolor=array_intersect($colors,$secondcolor);
+// $foodb=array(
+//     'a'=>"orange",
+//     'b'=>"apple",
+//     'c'=>"banana",
+//     'd'=>"sana",
+
+// );
+// $new=array_chunk($colors,3);
+// $new=array_flip($foodb);
+// $new=array_change_key_case($foodb,CASE_UPPER);
+
+// echo "____________Array Sum Function _______________<br>";
+// $new=[10,20,30,40,50];
+// $sum=array_sum($new);
+// $pro=array_product($new);
+
+
+
+// echo "<pre>";
+// print_r($pro);
+// echo "</pre>";
+
+// echo "____________Array Rand Function _______________<br>";
+
+// $new=[10,20,30,40,50];
+// // $new1=array_rand($new,2);
+// shuffle($new);
+
+
+// echo "<pre>";
+// print_r($new);
+// echo "</pre>";
+// echo $new[$new1[0]]."<br>";
+// echo $new[$new1[1]]."<br>";
+
+echo "____________Array Fill Function _______________<br>";
+
+// $new=[10,20,30,40,50];
+// $newarray=array_fill_keys($new,"hello");
+$new=array_fill(9,4,1);
 echo "<pre>";
-print_r($food);
+print_r($new);
 echo "</pre>";
-
-
-
-
-
-
 
 
 
