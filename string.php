@@ -13,6 +13,12 @@ $strrr=strtr($str,"ov","hello");
 echo "<pre>";
 echo $strrr;
 echo "</pre>";
+$rev=strrev($str);
+$shuf=str_shuffle($str);
+echo "<pre>";
+echo $shuf;
+echo "</pre>";
+echo str_pad($str,100,"........",STR_PAD_BOTH);
 // echo substr($str,-3);
 
 
