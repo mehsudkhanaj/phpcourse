@@ -33,6 +33,9 @@ echo "____<br>";
 // $newstr=addcslashes($str,"Jam");
 $newstr=addcslashes($str,"a..z");
 echo $newstr;
+echo "<br>";
+
+echo stripslashes($newstr);
 
 
 
