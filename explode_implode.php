@@ -16,12 +16,21 @@
 
 
 
-echo "________srting split______<br>";
+echo "________string split______<br>";
 
-$hello='hello';
-$new=str_split($hello);
+$hello='hello jimi world jimi khan mehsud';
+// $new=str_split($hello,3);
+// $new=chunk_split($hello,2,'..');
+// echo strlen($hello);
+// echo "<br>";
+// echo str_word_count($hello);
+// echo "<br>";
+// $new=str_word_count($hello,1);
+// echo "<br>";
+// echo substr_count($hello,"jimi",15);
+$new=strpos($hello,'jimi');
 echo "<pre>";
 print_r($new);
-echo "</pre>";
+echo "</pre>";  
 
 ?>
