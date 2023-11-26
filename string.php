@@ -22,20 +22,21 @@ $str="Hello I am 'Muhammad Jamshed'";
 // echo str_pad($str,100,"........",STR_PAD_BOTH);
 // echo substr($str,-3);
 
-echo "<pre>";
-$newslash=addslashes($str);
-echo $newslash;
-echo "____<br>";
-$newstr=stripslashes($newslash);
-echo $newstr;
-echo "</pre>";
-echo "____<br>";
-// $newstr=addcslashes($str,"Jam");
-$newstr=addcslashes($str,"a..z");
-echo $newstr;
-echo "<br>";
+// echo "<pre>";
+// $newslash=addslashes($str);
+// echo $newslash;
+// echo "____<br>";
+// $newstr=stripslashes($newslash);
+// echo $newstr;
+// echo "</pre>";
+// echo "____<br>";
+// // $newstr=addcslashes($str,"Jam");
+// $newstr=addcslashes($str,"a..z");
+// echo $newstr;
+// echo "<br>";
 
-echo stripslashes($newstr);
+// echo stripslashes($newstr);
+
 
 
 
