@@ -213,16 +213,6 @@ $smart=[
 // print_r($new);
 // echo "</pre>";
 // echo $new[$new1[0]]."<br>";
-// echo $new[$new1[1]]."<br>";
-
-// echo "____________Array Fill Function _______________<br>";
-// function square($n){
-//     return $n * $n;
-// };
-// $new=[10,20,30,40,50];
-
-// $newarray=array_fill_keys($new,"hello");
-// $newarray=array_map('square',$new);
 
 
 
@@ -248,14 +238,16 @@ $smart=[
 
 
 
+echo $new[$new1[1]]."<br>";
 
+echo "____________Array Fill Function _______________<br>";
+function square($n){
+    return $n * $n;
+};
+$new=[10,20,30,40,50];
 
-
-
-
-
-
-
+$newarray=array_fill_keys($new,"hello");
+$newarray=array_map('square',$new);
 
 echo "____________Array Traversign Function _______________<br>";
 $name=array('sanjay','jimi','sahanza','amara');
@@ -270,7 +262,6 @@ $name1=array(
     '1'=>'rehan',
     '1'=>'traversing',
     '1'=>'new',
-
 );
 echo "current: ".current($name)."<br>";
 echo "key:" .key($name);
