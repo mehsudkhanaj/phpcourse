@@ -20,6 +20,7 @@ echo "</pre>";
 // echo $_REQUEST['age'];
 
 
-
+echo $_SERVER['PHP_SELF'];
+echo $_SERVER['PHP_SELF']; 
 
 ?> 

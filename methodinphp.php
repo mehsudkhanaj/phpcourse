@@ -13,11 +13,20 @@ echo "<br>";
     <title>Document</title>
 </head>
 <body>
-    <form action="testform.php" method="get">
+    <form action=" <?php echo $_SERVER['PHP_SELF']?>" method="post">
         Name: <Input type="text" name="fname"></Input><br><br>
         Age: <Input type="text" name="age"></Input><br><br>
         <input type="submit" name='save' value="submit">
     </form>
+    <?php
+    if(isset($_POST['save'])){
+        echo $_POST['fname'].'<br>';
+        echo $_POST['age'].'<br>';
+    }
+    
+    ?>
+
+
 </body>
 </html>
 
